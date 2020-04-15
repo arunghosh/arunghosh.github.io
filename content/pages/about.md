@@ -1,0 +1,21 @@
+---
+title: "About me"
+template: "page"
+socialImage: "/media/image-2.jpg"
+---
+
+I am from Kerala, also know as God's own country. 
+It is a small a small state in India. 
+
+I started my career as embedded system developer in automobile industry for 
+Bosch. I worked mostly with embedded C, C++ and automobile 
+communication protocols like CAN and LIN. 
+
+Later I moved to Siemens where I worked  onweb and desktop application development using .Net technologies(C#/ASP MVC, WPF, Silverlight) in medical domain.
+
+After that, it was mainly JavaScript(ReactJS/NodeJS), 
+Python(Django) and AWS for the past 8 years.
+And during this time I am fortunate enought 
+to [open source some works I did](https://github.com/arunghosh).
+
+You can reach me ```arunghosh[at]gmail.com```
