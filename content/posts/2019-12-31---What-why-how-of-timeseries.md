@@ -12,8 +12,6 @@ description: "An article of what is Time Series data, why do we need Time Series
 # socialImage: "/media/42-line-bible.jpg"
 ---
 
-What is Time Series data? Why do we need separate DB to handle DB? How does Time Series DB handle data?
-
 If you are following tech, there is good chance to encounter the term *Time Series Database*. This article is indented to convey —
 
 * What is Time Series data?
@@ -23,6 +21,7 @@ If you are following tech, there is good chance to encounter the term *Time Seri
 * Why do we need a separate DB for handling Time Series data?
 
 * How does Time Series DB work?
+
 
 ### What?
 
@@ -40,7 +39,6 @@ Time Series data is a sequence of data points. And each data point is a combinat
 |2019-12-27T10:54:00|23|
 
 
-
 It is getting more limelight now because of lot of Time Series data is being generated from sources like—
 
 * IoT sensor — There are sensors every where from from big industries to activity sensor in the wrist watches/bands. They generate large amount of data that need to be stored and processed.
@@ -49,7 +47,8 @@ It is getting more limelight now because of lot of Time Series data is being gen
 
 * Server monitoring — Servers need to be monitored for different factors like CPU usage, memory usage, disk IOPS, etc.
 
-**Why?**
+
+## Why?
 
 The above server monitoring data looks simple, right? Simple enough to be handled by most of the data stores like Relational DB(PostgresSQL) or Document Store(MongoDB). Then why do we need a special database to manage time series data? The reason lies in the nature of Time Series data and the way it is managed/processed—
 
@@ -68,6 +67,7 @@ The above points limits the usage of RDBMS and Document Store from handling Time
 * Manage TS data lifecycle needs
 
 In addition to the above mentioned points some DBs([Prometheus](https://prometheus.io/)) provide monitoring and alerting system.
+
 
 ### How?
 
