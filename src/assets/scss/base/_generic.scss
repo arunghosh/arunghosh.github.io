@@ -174,3 +174,11 @@ figcaption {
     float: left;
   }
 }
+
+table {
+  td, th {
+    border: 1px solid #ddd;
+    padding: .5rem 1rem;
+    font-size: 1rem;
+  }
+}
