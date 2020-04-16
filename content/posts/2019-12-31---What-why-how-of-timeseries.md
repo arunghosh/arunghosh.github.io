@@ -79,10 +79,10 @@ There is an [interesting read](https://blog.timescale.com/blog/time-series-data-
 
 ### Reference
 
-* [https://habr.com/en/company/postgrespro/blog/441962/](https://habr.com/en/company/postgrespro/blog/441962/)
+* [Indexes in PostgreSQL](https://habr.com/en/company/postgrespro/blog/441962/)
 
-* [https://docs.influxdata.com/influxdb/v1.7/concepts/time-series-index/](https://docs.influxdata.com/influxdb/v1.7/concepts/time-series-index/)
+* [Time Series Index (TSI) overview](https://docs.influxdata.com/influxdb/v1.7/concepts/time-series-index/)
 
-* [https://blog.timescale.com/blog/time-series-data-why-and-how-to-use-a-relational-database-instead-of-nosql-d0cd6975e87c/](https://blog.timescale.com/blog/time-series-data-why-and-how-to-use-a-relational-database-instead-of-nosql-d0cd6975e87c/)
+* [Why (and how) to use a relational database instead of NoSQL](https://blog.timescale.com/blog/time-series-data-why-and-how-to-use-a-relational-database-instead-of-nosql-d0cd6975e87c/)
 
-* [https://prometheus.io/](https://prometheus.io/)
+* [Prometheus](https://prometheus.io/)
