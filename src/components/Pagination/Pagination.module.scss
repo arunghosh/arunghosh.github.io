@@ -3,7 +3,7 @@
 
 .pagination {
   @include margin-top(2);
-  display: flex;
+  display: none;
 
   &__prev {
     width: 50%;

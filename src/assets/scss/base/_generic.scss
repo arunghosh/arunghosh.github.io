@@ -100,7 +100,7 @@ hr {
 }
 
 a {
-  color: $typographic-link-p-font-color;
+  color: #2980b9;
   text-decoration: none;
 
   &:hover,
@@ -132,9 +132,9 @@ p {
 
 blockquote {
   font-style: italic;
-  text-align: center;
-  background: #eee;
-  padding: 0.2rem;
+  text-align: left;
+  background: #ecf0f1;
+  padding: 0.1rem 1rem;
   border-radius: 10px;
 }
 
@@ -176,8 +176,14 @@ figcaption {
 }
 
 table {
+  border-collapse: collapse;
+
+  th {
+    background: #ecf0f1;
+  }
+
   td, th {
-    border: 1px solid #ddd;
+    border: 1px solid #bdc3c7;
     padding: .5rem 1rem;
     font-size: 1rem;
   }

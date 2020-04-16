@@ -6,7 +6,7 @@
   "scripts": {
     "develop": "yarn run clean && gatsby develop",
     "build": "yarn run clean && gatsby build",
-    "deploy": "yarn run clean && gatsby build --prefix-paths && gh-pages -d public",
+    "deploy": "yarn run clean && gatsby build --prefix-paths && echo arunghosh.tech > public/CNAME && gh-pages -d public",
     "clean": "rimraf .cache public",
     "flow": "flow",
     "lint:js": "eslint --cache --ext .js,.jsx .",
@@ -19,7 +19,7 @@
   "repository": "",
   "author": "Arun Ghosh<arunghosh@gmail.com>",
   "license": "MIT",
-  "keywords": [ ],
+  "keywords": [],
   "dependencies": {
     "bluebird": "^3.7.2",
     "classnames": "^2.2.6",
