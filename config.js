@@ -4,7 +4,8 @@ module.exports = {
   url: "https://lumen.netlify.com",
   pathPrefix: "/",
   title: "Blog by Arun Ghosh",
-  subtitle: "Writes code out of passion and for living.",
+  subtitle: "Writes code and solve problems out of passion and for living.",
+  // subtitle: "Writes code out of passion and for living.",
   copyright: "",
   disqusShortname: "",
   postsPerPage: 4,
@@ -27,7 +28,7 @@ module.exports = {
   author: {
     name: "Arun Ghosh",
     photo: "/photo.jpg",
-    bio: "Writes code out of passion and for living.",
+    bio: "Writes code and solve problems out of passion and for living.",
     contacts: {
       email: "arunghosh@gmail.com",
       facebook: "",
