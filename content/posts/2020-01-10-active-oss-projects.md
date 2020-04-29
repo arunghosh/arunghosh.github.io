@@ -7,7 +7,7 @@ slug: "open-source-projects"
 category: "Projects"
 tags:
   - "ReactJS"
-  - "OSS"
+  - "Open Source"
 description: "List of projects that have open sourced with screenshots and links."
 ---
 
