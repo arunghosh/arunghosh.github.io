@@ -25,7 +25,7 @@ h4,
 h5,
 h6 {
   font-family: $typographic-font-family;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 h1 {
@@ -75,6 +75,7 @@ img {
   max-width: 100%;
   display: block;
   margin: inherit auto;
+  margin-left: 0px!important;
 }
 
 hr {
@@ -187,4 +188,10 @@ table {
     padding: .5rem 1rem;
     font-size: 1rem;
   }
+}
+
+
+pre {
+  font-size: .8rem!important;
+  background: #ecf0f1!important;
 }

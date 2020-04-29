@@ -10,10 +10,11 @@
     }
 
     &-title {
-      font-size: $typographic-base-font-size * 1.5;
+      font-size: $typographic-base-font-size * 1.3;
+      font-weight: 500;
       @include line-height(1.2);
       @include margin-top(0);
-      @include margin-bottom(.5);
+      @include margin-bottom(.1);
 
       &-link {
         color: $color-base;
@@ -32,7 +33,7 @@
       font-size: $typographic-base-font-size;
       color: $color-base-light;
       margin-top: .2rem;
-      @include line-height(.9);
+      @include line-height(1);
       @include margin-bottom(.1);
     }
 
