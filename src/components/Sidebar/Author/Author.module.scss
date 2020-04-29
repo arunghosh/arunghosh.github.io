@@ -11,7 +11,7 @@
 
   &__title {
     font-size: $typographic-base-font-size * 1.125;
-    font-weight: 600;
+    font-weight: 500;
     @include line-height(1);
     @include margin(.5, 0, 0, 0);
 
@@ -27,7 +27,7 @@
   }
 
   &__subtitle {
-    color: $color-gray;
+    color: $color-base-light;
     margin-top: 0;
     // @include line-height(1);
     @include margin-bottom(.5)

@@ -1,5 +1,5 @@
 ---
-title: What why and how of Docker volumes
+title: What why and how of Docker Volumes
 date: "2017-08-10T22:40:32.169Z"
 template: "post"
 draft: false
