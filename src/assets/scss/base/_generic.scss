@@ -75,7 +75,7 @@ img {
   max-width: 100%;
   display: block;
   margin: inherit auto;
-  margin-left: 0px!important;
+  margin-left: 0px !important;
 }
 
 hr {
@@ -183,15 +183,16 @@ table {
     background: #ecf0f1;
   }
 
-  td, th {
+  td,
+  th {
     border: 1px solid #bdc3c7;
-    padding: .5rem 1rem;
+    padding: 0.5rem 1rem;
     font-size: 1rem;
   }
 }
 
-
 pre {
-  font-size: .8rem!important;
-  background: #ecf0f1!important;
+  font-size: 0.8rem !important;
+  background-color: #bdc3c711!important;
+  border: 1px solid #bdc3c7;
 }

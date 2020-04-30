@@ -9,7 +9,6 @@ tags:
   - "Time Series"
   - "Database"
 description: "An article of what is Time Series data, why do we need Time Series database and how does Time Series database work."
-# socialImage: "/media/42-line-bible.jpg"
 ---
 
 If you are following tech, there is good chance to encounter the term *Time Series Database*. This article is indented to convey —

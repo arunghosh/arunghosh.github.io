@@ -8,7 +8,7 @@ category: "Projects"
 tags:
   - "ReactJS"
   - "Open Source"
-description: "List of projects that have open sourced with screenshots and links."
+description: "List of projects that have been open sourced"
 ---
 
 Following are the list of projects that have open sourced.
