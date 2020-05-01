@@ -47,7 +47,7 @@ It is getting more limelight now because of lot of Time Series data is being gen
 * Server monitoring — Servers need to be monitored for different factors like CPU usage, memory usage, disk IOPS, etc.
 
 
-## Why?
+### Why?
 
 The above server monitoring data looks simple, right? Simple enough to be handled by most of the data stores like Relational DB(PostgresSQL) or Document Store(MongoDB). Then why do we need a special database to manage time series data? The reason lies in the nature of Time Series data and the way it is managed/processed—
 
