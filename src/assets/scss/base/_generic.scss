@@ -24,8 +24,9 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: $typographic-font-family-head;
+  font-family: $typographic-font-family;
   font-weight: 500;
+  color: #013;
 }
 
 h1 {
@@ -216,7 +217,7 @@ pre {
 }
 ul,
 ol {
-  margin-left: 0.1rem;
+  margin-left: 0.05rem;
   margin-top: -1rem;
 }
 
