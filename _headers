@@ -7,7 +7,7 @@
   Referrer-Policy: same-origin
 /component---cache-caches-gatsby-plugin-offline-app-shell-js-b3d32bc20641419cfed7.js
   Cache-Control: public, max-age=31536000, immutable
-/styles.9c8321ec1b053aa84910.css
+/styles.9bba9eea061254dd0fe2.css
   Cache-Control: public, max-age=31536000, immutable
 /styles-0dd9b16d06f2e4f550cc.js
   Cache-Control: public, max-age=31536000, immutable
@@ -122,6 +122,18 @@
   Link: </component---src-templates-page-template-js-b6de8780141d67ef850a.js>; rel=preload; as=script
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/pages/contacts/page-data.json>; rel=preload; as=fetch; crossorigin
+/posts/open-source-projects
+  Link: </webpack-runtime-00872db4f9058379804f.js>; rel=preload; as=script
+  Link: </styles-0dd9b16d06f2e4f550cc.js>; rel=preload; as=script
+  Link: </framework-7656862d80676d58607a.js>; rel=preload; as=script
+  Link: </532a2f07-05d0124221769214927b.js>; rel=preload; as=script
+  Link: </app-b4023fb8765363a3aeaf.js>; rel=preload; as=script
+  Link: </styles-0dd9b16d06f2e4f550cc.js>; rel=preload; as=script
+  Link: </61a99217af7f1d1eebec238e78e684e1bdbe6200-b25aaceb608c1732dd1e.js>; rel=preload; as=script
+  Link: </d4f3f45f3b97a996ebac05174393e9dafe15c3a1-e1c811e67e06b8931249.js>; rel=preload; as=script
+  Link: </component---src-templates-post-template-js-61fd9f2f937087963467.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/posts/open-source-projects/page-data.json>; rel=preload; as=fetch; crossorigin
 /posts/what-why-and-how-of-docker-volumes
   Link: </webpack-runtime-00872db4f9058379804f.js>; rel=preload; as=script
   Link: </styles-0dd9b16d06f2e4f550cc.js>; rel=preload; as=script
@@ -146,18 +158,6 @@
   Link: </component---src-templates-post-template-js-61fd9f2f937087963467.js>; rel=preload; as=script
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/posts/what-why-and-how-of-timeseries/page-data.json>; rel=preload; as=fetch; crossorigin
-/posts/open-source-projects
-  Link: </webpack-runtime-00872db4f9058379804f.js>; rel=preload; as=script
-  Link: </styles-0dd9b16d06f2e4f550cc.js>; rel=preload; as=script
-  Link: </framework-7656862d80676d58607a.js>; rel=preload; as=script
-  Link: </532a2f07-05d0124221769214927b.js>; rel=preload; as=script
-  Link: </app-b4023fb8765363a3aeaf.js>; rel=preload; as=script
-  Link: </styles-0dd9b16d06f2e4f550cc.js>; rel=preload; as=script
-  Link: </61a99217af7f1d1eebec238e78e684e1bdbe6200-b25aaceb608c1732dd1e.js>; rel=preload; as=script
-  Link: </d4f3f45f3b97a996ebac05174393e9dafe15c3a1-e1c811e67e06b8931249.js>; rel=preload; as=script
-  Link: </component---src-templates-post-template-js-61fd9f2f937087963467.js>; rel=preload; as=script
-  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
-  Link: </page-data/posts/open-source-projects/page-data.json>; rel=preload; as=fetch; crossorigin
 /posts/rule-based-chatbot-from-scratch-using-reactjs-and-nodejs-p1
   Link: </webpack-runtime-00872db4f9058379804f.js>; rel=preload; as=script
   Link: </styles-0dd9b16d06f2e4f550cc.js>; rel=preload; as=script
