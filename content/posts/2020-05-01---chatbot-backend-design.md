@@ -1,40 +1,40 @@
 ---
-title: Rule-based chatbot from scratch using ReactJS and NodeJS - Part 1
-date: "2019-12-31T22:40:32.169Z"
+title: Rule-based chatbot from scratch using ReactJS and NodeJS
+date: "2020-04-30T22:40:32.169Z"
 template: "post"
-draft: true
-slug: "rule-based-chatbot-from-scratch-using-Reactjs-and-nodejs"
+draft: false
+slug: "rule-based-chatbot-from-scratch-using-reactjs-and-nodejs-p1"
 category: "Chatbot"
 tags:
   - "Chatbot"
   - "Conversation UI"
-description: ""
+description: "This gives you pointers on how to create a rule-based chatbot from scratch"
 ---
 
 
 Lately I was working on an ecommmerce web application. During the covid-19 lockdown there came a requirement, to create a chatbot that can 
-1. Handle customer issues like 
+1. Handle customer issues like
    - refund issue
    - issue with placing order 
    - other order related issues  
 2. Assist shopping by helping find the products and offers
 
+It came as a blessing since I can focus on something other than these convid based news and trolls.
+
 From the requirements it was **rule-based** chatbot. It will be driven by the bot, i.e. the bot will ask some questions and provide the user with opions. And based on the option selected by the user the bot will decide on the subsequent message. So it is more of **Conversational User Interface(CUI)** than a fully fledged chatbot.
 
-I had 2 options 
-1. Use an existing platforms like wit.ai, messenger, etc or
-1. Create a custom chatbot from scratch
+I had 2 options
+1. Use an existing platforms like [Yellow Messenger](https://yellowmessenger.com/), [Dialogflow](https://dialogflow.com/) or
+2. Create a custom chatbot from scratch
 
 I choose the later. Why? Because it gives you
 - More flexibility
-- Learning oppourtunity
-- Challenge
+- More learning oppourtunity
+- More Challenge
 
-Before I start I checked existing readymade solution to ensure that the new one can provide better user experience.
+This is Part-I of the series which will explain the basic backend design. The technology I choose were `ReactJS` and `NestJS` since I am comfortable with these.
 
-This is part 1 of the series which will explain the basic backend design.
-
-When it came to technology I choose `ReactJS` and `NestJS` since I am comfortable with these.
+## Conversation context/state
 
 Now let us get into the basic steps in the chatbot conversation
 1. The conversation is initiated by the bot.
@@ -42,11 +42,9 @@ Now let us get into the basic steps in the chatbot conversation
 3. User selects an option.
 4. Bot processes user option and sends response.
 
-## Conversation context/state
-
 In last step, where the bot process the user input, the application need `chat context/state`. This need to presisted in the server-side against the current user session. It is more like a user session.
 
-```
+```json
 session_id => (user chat context/state)
 ```
 
@@ -56,9 +54,22 @@ The state should have
 - User infomation like user ID and name.
 - What is the aim/intent of the conversation. For example initially the intent of the bot is to find what help the user need. If the user selects "refund issue", then the intent is to resolve refund issue.
  
-The state should have all the information required for the conversation.
+The state should have all the information required for the conversation. And so as of now we know that the session will have details on the user and intent.
 
-And as of now we know that the session will have details on the user and intent.
+```typescript
+interface IState {
+  user: {
+    session: string;
+    id: string;
+    name?: string;
+  };
+  intent: {
+    current: IntentType;
+    stack: IntentType[];
+  };
+}
+
+```
 
 ## Intent
 
@@ -100,9 +111,9 @@ prerequisite: ["send_sorry", "select_order"]
 current: "send_sorry",
 stack: ["resolve_refund_issue"],
 ```
-This is similar to how function stack work.
+This is similar to how call stack work. But call stack is much more complicated.
 
-The state will look like
+So now the state with user infomation and intent will look 
 ```typescript
 interface IState {
   user: {
@@ -110,31 +121,24 @@ interface IState {
     id: string;
   };
   intent: {
-    // Current intent
-    // Ex: Resolve Refund Issue
     current: IntentType;
-    // The intent stack
     stack: IntentType[];
-    stable: boolean;
   };
-  message: IMessage;
-  input: object;
-  execute: object;
-  heap: object;
 }
 ```
 
 
-## State/Intent handler
+## Intent handler
 
-Intent/state handler will have following structure
+Each intent will have a handler associated with it. Intent handler will have following 
+1. `prerequisites` an array of intents. These intents should be satisfied before you can execure the current intent. For example `refund_issue` can have prerequisite like `send_sorry` and `find_order_having_issue`.
 
 ```typescript
-interface IStateHandler {
+interface IIntentHandler {
   // the prerequisites for the handler to work. For example the refund issue requires to send a sorry message and select an order
   prerequisites: IntentType[];
-  // nextState takes in the state and user input and returns the updated state
-  nextState: (arg0: IState, arg1: string) => Promise<IState>;
+  // updateState takes in the state and user input and returns the updated state
+  updateState: (arg0: IState, arg1: string) => Promise<IState>;
   // getMessage takes in state and provides message for the user
   getMessage: (arg0: IState) => IMessage;;
 }
@@ -143,9 +147,9 @@ interface IStateHandler {
 A simple state handler to send sorry message will look like this
 
 ```typescript
-const SORRY_MESSAGE: IStateHandler = {
+const SORRY_MESSAGE: IIntentHandler = {
   prerequisites: [],
-  nextState: (state, userInput) => handleAutoReply(state, userInput),
+  updateState: (state, userInput) => handleAutoReply(state, userInput),
   getMessage: state => {
     return {
       texts: ["Sorry to hear that."],
@@ -157,14 +161,15 @@ const SORRY_MESSAGE: IStateHandler = {
 A for a more complex use case like resolving the refund issue the handler will look like 
 
 ```typescript
-const RESOLVE_REFUND_ISSUE: IStateHandler = {
+const RESOLVE_REFUND_ISSUE: IIntentHandler = {
     prerequisites: [
         // First we need to send a sorry message to user 
         IntentType.SorryMessage,
         // Then find the order which is having the issue
         IntentType.SelectOrder,
     ],
-  nextState: (state, userInput) => handleUserReply(state, userInput),
+  updateState: (state, userInput) => handleUserReply(state, userInput),
   getMessage: state => getMessage(state)
 };
 ```
+
