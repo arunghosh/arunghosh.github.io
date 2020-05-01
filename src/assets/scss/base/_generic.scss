@@ -116,6 +116,15 @@ strong {
   font-weight: 500;
 }
 
+ol {
+  @include margin-bottom(1);
+
+  & li {
+    padding: 0 5px;
+    margin-bottom: 10px;
+  }
+}
+
 ul {
   list-style: square;
   @include margin-bottom(1);
@@ -191,8 +200,38 @@ table {
   }
 }
 
+code.language-text {
+  font-size: 0.95rem !important;
+  color: #c0392b!important;
+  background: #ecf0f1!important;
+}
+
 pre {
-  font-size: 0.8rem !important;
-  background-color: #bdc3c711!important;
+  code {
+    color: #222!important;
+  }
+  font-size: 0.85rem !important;
+  background-color: #bdc3c711 !important;
   border: 1px solid #bdc3c7;
+}
+ul,
+ol {
+  margin-left: 0.1rem;
+  margin-top: -1rem;
+}
+
+ul,
+ol {
+  > li {
+    margin-left: 0.05rem !important;
+    p {
+      margin: 0 !important;
+    }
+    li {
+      margin: 0;
+    }
+    ul {
+      margin: 0;
+    }
+  }
 }
