@@ -6,7 +6,7 @@
   "scripts": {
     "develop": "yarn run clean && gatsby develop",
     "build": "yarn run clean && gatsby build",
-    "deploy": "yarn run clean && gatsby build --prefix-paths && echo arunghosh.tech > public/CNAME && gh-pages -d public",
+    "deploy": "yarn run clean && gatsby build --prefix-paths && echo theparadox.life > public/CNAME && gh-pages -d public",
     "clean": "rimraf .cache public",
     "flow": "flow",
     "lint:js": "eslint --cache --ext .js,.jsx .",
@@ -29,6 +29,7 @@
     "gatsby-plugin-catch-links": "^2.2.1",
     "gatsby-plugin-feed": "^2.4.1",
     "gatsby-plugin-flow": "^1.2.1",
+    "gatsby-plugin-google-analytics": "^2.3.0",
     "gatsby-plugin-google-gtag": "^2.0.0",
     "gatsby-plugin-manifest": "^2.3.3",
     "gatsby-plugin-netlify": "^2.2.1",
