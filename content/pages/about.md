@@ -4,7 +4,7 @@ template: "page"
 socialImage: "/media/image-2.jpg"
 ---
 
-I am from Kerala, also know as God's own country. It's a small state in India. 
+I am Arun Ghosh, a being from God's own country, Kerala. Kerala is a small state in India. 
 
 I started my career as embedded system developer in automobile industry for 
 Bosch. I worked mostly with embedded C, C++ and automobile 
