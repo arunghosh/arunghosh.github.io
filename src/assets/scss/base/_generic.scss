@@ -203,18 +203,19 @@ table {
 
 code.language-text {
   font-size: 0.95rem !important;
-  color: #c0392b!important;
-  background: #ecf0f1!important;
+  color: #c0392b !important;
+  background: #ecf0f1 !important;
 }
 
 pre {
   code {
-    color: #222!important;
+    color: #222 !important;
   }
   font-size: 0.85rem !important;
   background-color: #bdc3c711 !important;
   border: 1px solid #bdc3c7;
 }
+
 ul,
 ol {
   margin-left: 0.05rem;
@@ -224,7 +225,7 @@ ol {
 ul,
 ol {
   > li {
-    margin-left: 0.05rem !important;
+    margin-left: 0!important;
     p {
       margin: 0 !important;
     }
@@ -233,6 +234,15 @@ ol {
     }
     ul {
       margin: 0;
+    }
+  }
+}
+
+@include breakpoint-sm {
+  ul,
+  ol {
+    > li {
+      margin-left: 0.5rem !important;
     }
   }
 }
