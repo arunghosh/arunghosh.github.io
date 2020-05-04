@@ -29,7 +29,7 @@ To realise the requirement I had 2 options
 1. Use an existing platforms like [Yellow Messenger](https://yellowmessenger.com/), [Dialogflow](https://dialogflow.com/) or
 2. Create a custom chatbot from scratch
 
-I choose the later. Why? Because it gives you
+I choose the latter. Why? Because it gives you
 - More flexibility
 - More learning opportunity
 - More Challenge
@@ -169,8 +169,7 @@ The state can have an `execute` and `heap` object to store the details on the ex
 }
 ```
 
-The **`getMessage`** function will return the message for the handler. The message will have text and options
-```typescript
+The **`getMessage`** function will return the message for the handler. The message will have text and options```typescript
 interface IMessage {
   texts: string[];
   options?: {
