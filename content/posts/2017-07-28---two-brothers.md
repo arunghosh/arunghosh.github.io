@@ -1,12 +1,11 @@
 ---
 title: Two brothers
-date: "2017-08-10T22:40:32.169Z"
+date: "2013-12-10T22:40:32.169Z"
 template: "post"
 draft: false
 slug: "two-brothers"
 category: "Philosophy"
 tags:
-  - "Docker"
   - "Philosophy"
 description: "A small story of two brothers."
 ---
