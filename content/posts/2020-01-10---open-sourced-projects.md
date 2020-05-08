@@ -6,7 +6,7 @@ draft: false
 slug: "open-source-projects"
 category: "Projects"
 tags:
-  - "ReactJS"
+  - "React"
   - "Open Source"
 description: "List of projects that have been open sourced"
 ---
