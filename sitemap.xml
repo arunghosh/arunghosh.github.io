@@ -3,12 +3,14 @@
 <url> <loc>https://theparadox.life/tags</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://theparadox.life/categories</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://theparadox.life/pages/about/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://theparadox.life/pages/contacts/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://theparadox.life/posts/two-brothers</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://theparadox.life/posts/what-why-and-how-of-docker-volumes</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://theparadox.life/posts/open-source-projects</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://theparadox.life/posts/what-why-and-how-of-timeseries</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://theparadox.life/posts/rule-based-chatbot-from-scratch-using-reactjs-and-nodejs-p1</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://theparadox.life/pages/contacts/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://theparadox.life/posts/react-hook-busy-indicator-chatbot</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://theparadox.life/tag/busy-indicator</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://theparadox.life/tag/chatbot</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://theparadox.life/tag/conversation-ui</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://theparadox.life/tag/database</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -17,13 +19,15 @@
 <url> <loc>https://theparadox.life/tag/docker-volumes</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://theparadox.life/tag/open-source</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://theparadox.life/tag/philosophy</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://theparadox.life/tag/react-js</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://theparadox.life/tag/react</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://theparadox.life/tag/react-hooks</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://theparadox.life/tag/time-series</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://theparadox.life/category/chatbot</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://theparadox.life/category/database</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://theparadox.life/category/devops</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://theparadox.life/category/philosophy</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://theparadox.life/category/projects</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://theparadox.life/category/react</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://theparadox.life/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://theparadox.life/page/1</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>
