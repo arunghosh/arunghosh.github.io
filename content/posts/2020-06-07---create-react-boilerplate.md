@@ -38,16 +38,16 @@ The boilerplate aims to have the following
 
 ##  Lets us start
 
-The starting point will be with the `create-react-app`
+The starting point will be with `create-react-app`
 
 Here you have a choice to go with or without `TypeScript`.
 
-Without `TypeScript`
+Without TypeScript
 ```bash
 npx create-react-app your-application-name 
 ``` 
 
-With `TypeScript`
+With TypeScript
 ```
 npx create-react-app your-application-name --template typescript
 ```
