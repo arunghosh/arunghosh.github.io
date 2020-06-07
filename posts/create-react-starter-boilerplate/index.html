@@ -352,7 +352,7 @@ Ther is npm package <code class="language-text">react-helment</code> which is us
 <p>We will be using <a href="https://github.com/bvaughn/react-error-boundary" target="_blank" rel="nofollow noopener noreferrer">react-error-boundary</a>.</p>
 <p>Install</p>
 <div class="gatsby-highlight" data-language="bash"><pre class="language-bash"><code class="language-bash"><span class="token function">yarn</span> <span class="token function">add</span> react-error-boundary</code></pre></div>
-<p>Add <code class="language-text">components/generics/ErrorFallback/ErrorFallback.tsx</code></p>
+<p>Add component <code class="language-text">ErrorFallback.tsx</code> in <code class="language-text">generics/ErrorFallback/</code></p>
 <div class="gatsby-highlight" data-language="javascript"><pre class="language-javascript"><code class="language-javascript"><span class="token keyword">import</span> React <span class="token keyword">from</span> <span class="token string">'react'</span>
 
 <span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token keyword">function</span> <span class="token function">ErrorFallback</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
@@ -448,7 +448,7 @@ Ther is npm package <code class="language-text">react-helment</code> which is us
     '@storybook/addon-links',
   ],
 </span>};</code></pre></div>
-<p>Now add a story for <code class="language-text">ErrorFallback</code> component in <code class="language-text">components/generics/ErrorFallback/ErrorFallback.stories.tsx</code></p>
+<p>Now add a story for <code class="language-text">ErrorFallback</code> in <code class="language-text">ErrorFallback/ErrorFallback.stories.tsx</code></p>
 <div class="gatsby-highlight" data-language="javascript"><pre class="language-javascript"><code class="language-javascript"><span class="token keyword">import</span> React <span class="token keyword">from</span> <span class="token string">"react"</span><span class="token punctuation">;</span>
 <span class="token keyword">import</span> <span class="token punctuation">{</span> ErrorFallback <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">"../components/generics"</span><span class="token punctuation">;</span>
 
@@ -464,9 +464,9 @@ Ther is npm package <code class="language-text">react-helment</code> which is us
 <p>This is not a mandatory component. When the components have lot of shared state you will have to go for a <a href="https://kentcdodds.com/blog/application-state-management-with-react" target="_blank" rel="nofollow noopener noreferrer">state management</a> to avoid <a href="https://kentcdodds.com/blog/prop-drilling/" target="_blank" rel="nofollow noopener noreferrer">props drilling</a>.
 Do read the article mentioned here. It will give you a direction on State Management. It mentions about state management methods like</p>
 <ol>
-<li><a href="https://reactjs.org/docs/hooks-reference.html#usestate" target="_blank" rel="nofollow noopener noreferrer"><code class="language-text">useState</code></a></li>
-<li><a href="https://reactjs.org/docs/hooks-reference.html#usereducer" target="_blank" rel="nofollow noopener noreferrer"><code class="language-text">useReducer</code></a></li>
-<li><a href="https://reactjs.org/docs/hooks-reference.html#usecontext" target="_blank" rel="nofollow noopener noreferrer"><code class="language-text">useContext</code></a></li>
+<li><a href="https://reactjs.org/docs/hooks-reference.html#usestate" target="_blank" rel="nofollow noopener noreferrer">useState</a></li>
+<li><a href="https://reactjs.org/docs/hooks-reference.html#usereducer" target="_blank" rel="nofollow noopener noreferrer">useReducer</a></li>
+<li><a href="https://reactjs.org/docs/hooks-reference.html#usecontext" target="_blank" rel="nofollow noopener noreferrer">useContext</a></li>
 <li><a href="https://react-redux.js.org/" target="_blank" rel="nofollow noopener noreferrer">Redux</a></li>
 </ol>
 <p>Other than the onces mentioned above there is new child in state management ~ <a href="https://github.com/facebookexperimental/Recoil" target="_blank" rel="nofollow noopener noreferrer">Recoil</a> by Facebook. You can also checkout the <a href="https://egghead.io/playlists/getting-started-with-recoil-in-react-1fca" target="_blank" rel="nofollow noopener noreferrer">egghead.io video tutorial on Recoil</a></p></div></div></div><div class="Post-module--post__footer--3WzWU"><div><p class="Meta-module--meta__date--29eD7">Published <!-- -->8 Jun 2020</p></div><div class="Tags-module--tags--1L_ct"><ul class="Tags-module--tags__list--91FqN"><li class="Tags-module--tags__list-item--1M30P"><a class="Tags-module--tags__list-item-link--3SL_8" href="/tag/react/">React</a></li><li class="Tags-module--tags__list-item--1M30P"><a class="Tags-module--tags__list-item-link--3SL_8" href="/tag/boilerplate/">Boilerplate</a></li><li class="Tags-module--tags__list-item--1M30P"><a class="Tags-module--tags__list-item-link--3SL_8" href="/tag/lazy-loading/">Lazy Loading</a></li></ul></div><div class="Author-module--author--2Yefr"><p>Writes code and solve problems out of passion and for living.<a class="Author-module--author__bio-twitter--n-O9n" href="https://www.twitter.com/_arun_ghosh" rel="noopener noreferrer" target="_blank"><strong>Arun Ghosh</strong> on Twitter</a></p></div></div><div class="Post-module--post__comments--25y6I"></div></div></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script>
