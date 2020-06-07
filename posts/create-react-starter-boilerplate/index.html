@@ -394,7 +394,7 @@ Ther is npm package <code class="language-text">react-helment</code> which is us
   <span class="token function">expect</span><span class="token punctuation">(</span>linkElement<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">toBeInTheDocument</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre></div>
 <p>To run test</p>
-<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">yarn test</code></pre></div>
+<div class="gatsby-highlight" data-language="bash"><pre class="language-bash"><code class="language-bash"><span class="token function">yarn</span> <span class="token builtin class-name">test</span></code></pre></div>
 <h2 id="precommit-hooks" style="position:relative;"><a href="#precommit-hooks" aria-label="precommit hooks permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Precommit Hooks</h2>
 <blockquote>
 <p><a href="https://githooks.com/" target="_blank" rel="nofollow noopener noreferrer">Git hooks</a> are scripts that Git executes before or after events such as: commit, push, and receive. Git hooks are a built-in feature - no need to download anything. Git hooks are run locally.</p>
@@ -405,7 +405,7 @@ Ther is npm package <code class="language-text">react-helment</code> which is us
 <li>There are no linting errors</li>
 </ul>
 <p>To enable precommit hook, add <a href="https://www.npmjs.com/package/pre-commit" target="_blank" rel="nofollow noopener noreferrer">pre-commit</a> as dev dependency</p>
-<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">yarn add --dev pre-commit</code></pre></div>
+<div class="gatsby-highlight" data-language="bash"><pre class="language-bash"><code class="language-bash"><span class="token function">yarn</span> <span class="token function">add</span> --dev pre-commit</code></pre></div>
 <p>Now make the following changes to <code class="language-text">packages.json</code>.</p>
 <div class="gatsby-highlight" data-language="diff"><pre class="language-diff"><code class="language-diff"><span class="token unchanged">     "test": "react-scripts test",
 </span><span class="token inserted-sign inserted">+    "ci-test": "CI=true react-scripts test",
@@ -459,7 +459,7 @@ Ther is npm package <code class="language-text">react-helment</code> which is us
 
 <span class="token keyword">export</span> <span class="token keyword">const</span> <span class="token function-variable function">Error</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token operator">&lt;</span>ErrorFallback <span class="token operator">/</span><span class="token operator">></span><span class="token punctuation">;</span></code></pre></div>
 <p>Now to run the storybook</p>
-<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">yarn storybook</code></pre></div>
+<div class="gatsby-highlight" data-language="bash"><pre class="language-bash"><code class="language-bash"><span class="token function">yarn</span> storybook</code></pre></div>
 <h2 id="state-management" style="position:relative;"><a href="#state-management" aria-label="state management permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>State Management</h2>
 <p>This is not a mandatory component. When the components have lot of shared state you will have to go for a <a href="https://kentcdodds.com/blog/application-state-management-with-react" target="_blank" rel="nofollow noopener noreferrer">state management</a> to avoid <a href="https://kentcdodds.com/blog/prop-drilling/" target="_blank" rel="nofollow noopener noreferrer">props drilling</a>.
 Do read the article mentioned here. It will give you a direction on State Management. It mentions about state management methods like</p>
