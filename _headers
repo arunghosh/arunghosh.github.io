@@ -100,29 +100,6 @@
   Link: </component---src-templates-not-found-template-js-871f8d27b774c028f52f.js>; rel=preload; as=script
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/404.html/page-data.json>; rel=preload; as=fetch; crossorigin
-/pages/contacts/
-  Link: </webpack-runtime-1efad657eb71dcd1207e.js>; rel=preload; as=script
-  Link: </styles-0dd9b16d06f2e4f550cc.js>; rel=preload; as=script
-  Link: </framework-7656862d80676d58607a.js>; rel=preload; as=script
-  Link: </532a2f07-05d0124221769214927b.js>; rel=preload; as=script
-  Link: </app-5230b6cc001083178cf6.js>; rel=preload; as=script
-  Link: </styles-0dd9b16d06f2e4f550cc.js>; rel=preload; as=script
-  Link: </61a99217af7f1d1eebec238e78e684e1bdbe6200-67518d3045c6418c00eb.js>; rel=preload; as=script
-  Link: </component---src-templates-page-template-js-b6de8780141d67ef850a.js>; rel=preload; as=script
-  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
-  Link: </page-data/pages/contacts/page-data.json>; rel=preload; as=fetch; crossorigin
-/posts/two-brothers
-  Link: </webpack-runtime-1efad657eb71dcd1207e.js>; rel=preload; as=script
-  Link: </styles-0dd9b16d06f2e4f550cc.js>; rel=preload; as=script
-  Link: </framework-7656862d80676d58607a.js>; rel=preload; as=script
-  Link: </532a2f07-05d0124221769214927b.js>; rel=preload; as=script
-  Link: </app-5230b6cc001083178cf6.js>; rel=preload; as=script
-  Link: </styles-0dd9b16d06f2e4f550cc.js>; rel=preload; as=script
-  Link: </61a99217af7f1d1eebec238e78e684e1bdbe6200-67518d3045c6418c00eb.js>; rel=preload; as=script
-  Link: </d4f3f45f3b97a996ebac05174393e9dafe15c3a1-e1c811e67e06b8931249.js>; rel=preload; as=script
-  Link: </component---src-templates-post-template-js-61fd9f2f937087963467.js>; rel=preload; as=script
-  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
-  Link: </page-data/posts/two-brothers/page-data.json>; rel=preload; as=fetch; crossorigin
 /pages/about/
   Link: </webpack-runtime-1efad657eb71dcd1207e.js>; rel=preload; as=script
   Link: </styles-0dd9b16d06f2e4f550cc.js>; rel=preload; as=script
@@ -134,6 +111,17 @@
   Link: </component---src-templates-page-template-js-b6de8780141d67ef850a.js>; rel=preload; as=script
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/pages/about/page-data.json>; rel=preload; as=fetch; crossorigin
+/pages/contacts/
+  Link: </webpack-runtime-1efad657eb71dcd1207e.js>; rel=preload; as=script
+  Link: </styles-0dd9b16d06f2e4f550cc.js>; rel=preload; as=script
+  Link: </framework-7656862d80676d58607a.js>; rel=preload; as=script
+  Link: </532a2f07-05d0124221769214927b.js>; rel=preload; as=script
+  Link: </app-5230b6cc001083178cf6.js>; rel=preload; as=script
+  Link: </styles-0dd9b16d06f2e4f550cc.js>; rel=preload; as=script
+  Link: </61a99217af7f1d1eebec238e78e684e1bdbe6200-67518d3045c6418c00eb.js>; rel=preload; as=script
+  Link: </component---src-templates-page-template-js-b6de8780141d67ef850a.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/pages/contacts/page-data.json>; rel=preload; as=fetch; crossorigin
 /posts/what-why-and-how-of-docker-volumes
   Link: </webpack-runtime-1efad657eb71dcd1207e.js>; rel=preload; as=script
   Link: </styles-0dd9b16d06f2e4f550cc.js>; rel=preload; as=script
@@ -146,18 +134,6 @@
   Link: </component---src-templates-post-template-js-61fd9f2f937087963467.js>; rel=preload; as=script
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/posts/what-why-and-how-of-docker-volumes/page-data.json>; rel=preload; as=fetch; crossorigin
-/posts/react-hook-busy-indicator-chatbot
-  Link: </webpack-runtime-1efad657eb71dcd1207e.js>; rel=preload; as=script
-  Link: </styles-0dd9b16d06f2e4f550cc.js>; rel=preload; as=script
-  Link: </framework-7656862d80676d58607a.js>; rel=preload; as=script
-  Link: </532a2f07-05d0124221769214927b.js>; rel=preload; as=script
-  Link: </app-5230b6cc001083178cf6.js>; rel=preload; as=script
-  Link: </styles-0dd9b16d06f2e4f550cc.js>; rel=preload; as=script
-  Link: </61a99217af7f1d1eebec238e78e684e1bdbe6200-67518d3045c6418c00eb.js>; rel=preload; as=script
-  Link: </d4f3f45f3b97a996ebac05174393e9dafe15c3a1-e1c811e67e06b8931249.js>; rel=preload; as=script
-  Link: </component---src-templates-post-template-js-61fd9f2f937087963467.js>; rel=preload; as=script
-  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
-  Link: </page-data/posts/react-hook-busy-indicator-chatbot/page-data.json>; rel=preload; as=fetch; crossorigin
 /posts/open-source-projects
   Link: </webpack-runtime-1efad657eb71dcd1207e.js>; rel=preload; as=script
   Link: </styles-0dd9b16d06f2e4f550cc.js>; rel=preload; as=script
@@ -170,30 +146,6 @@
   Link: </component---src-templates-post-template-js-61fd9f2f937087963467.js>; rel=preload; as=script
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/posts/open-source-projects/page-data.json>; rel=preload; as=fetch; crossorigin
-/posts/rule-based-chatbot-from-scratch-using-reactjs-and-nodejs-p1
-  Link: </webpack-runtime-1efad657eb71dcd1207e.js>; rel=preload; as=script
-  Link: </styles-0dd9b16d06f2e4f550cc.js>; rel=preload; as=script
-  Link: </framework-7656862d80676d58607a.js>; rel=preload; as=script
-  Link: </532a2f07-05d0124221769214927b.js>; rel=preload; as=script
-  Link: </app-5230b6cc001083178cf6.js>; rel=preload; as=script
-  Link: </styles-0dd9b16d06f2e4f550cc.js>; rel=preload; as=script
-  Link: </61a99217af7f1d1eebec238e78e684e1bdbe6200-67518d3045c6418c00eb.js>; rel=preload; as=script
-  Link: </d4f3f45f3b97a996ebac05174393e9dafe15c3a1-e1c811e67e06b8931249.js>; rel=preload; as=script
-  Link: </component---src-templates-post-template-js-61fd9f2f937087963467.js>; rel=preload; as=script
-  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
-  Link: </page-data/posts/rule-based-chatbot-from-scratch-using-reactjs-and-nodejs-p1/page-data.json>; rel=preload; as=fetch; crossorigin
-/posts/create-react-starter-boilerplate
-  Link: </webpack-runtime-1efad657eb71dcd1207e.js>; rel=preload; as=script
-  Link: </styles-0dd9b16d06f2e4f550cc.js>; rel=preload; as=script
-  Link: </framework-7656862d80676d58607a.js>; rel=preload; as=script
-  Link: </532a2f07-05d0124221769214927b.js>; rel=preload; as=script
-  Link: </app-5230b6cc001083178cf6.js>; rel=preload; as=script
-  Link: </styles-0dd9b16d06f2e4f550cc.js>; rel=preload; as=script
-  Link: </61a99217af7f1d1eebec238e78e684e1bdbe6200-67518d3045c6418c00eb.js>; rel=preload; as=script
-  Link: </d4f3f45f3b97a996ebac05174393e9dafe15c3a1-e1c811e67e06b8931249.js>; rel=preload; as=script
-  Link: </component---src-templates-post-template-js-61fd9f2f937087963467.js>; rel=preload; as=script
-  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
-  Link: </page-data/posts/create-react-starter-boilerplate/page-data.json>; rel=preload; as=fetch; crossorigin
 /posts/what-why-and-how-of-timeseries
   Link: </webpack-runtime-1efad657eb71dcd1207e.js>; rel=preload; as=script
   Link: </styles-0dd9b16d06f2e4f550cc.js>; rel=preload; as=script
@@ -206,6 +158,54 @@
   Link: </component---src-templates-post-template-js-61fd9f2f937087963467.js>; rel=preload; as=script
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/posts/what-why-and-how-of-timeseries/page-data.json>; rel=preload; as=fetch; crossorigin
+/posts/rule-based-chatbot-from-scratch-using-reactjs-and-nodejs-p1
+  Link: </webpack-runtime-1efad657eb71dcd1207e.js>; rel=preload; as=script
+  Link: </styles-0dd9b16d06f2e4f550cc.js>; rel=preload; as=script
+  Link: </framework-7656862d80676d58607a.js>; rel=preload; as=script
+  Link: </532a2f07-05d0124221769214927b.js>; rel=preload; as=script
+  Link: </app-5230b6cc001083178cf6.js>; rel=preload; as=script
+  Link: </styles-0dd9b16d06f2e4f550cc.js>; rel=preload; as=script
+  Link: </61a99217af7f1d1eebec238e78e684e1bdbe6200-67518d3045c6418c00eb.js>; rel=preload; as=script
+  Link: </d4f3f45f3b97a996ebac05174393e9dafe15c3a1-e1c811e67e06b8931249.js>; rel=preload; as=script
+  Link: </component---src-templates-post-template-js-61fd9f2f937087963467.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/posts/rule-based-chatbot-from-scratch-using-reactjs-and-nodejs-p1/page-data.json>; rel=preload; as=fetch; crossorigin
+/posts/react-hook-busy-indicator-chatbot
+  Link: </webpack-runtime-1efad657eb71dcd1207e.js>; rel=preload; as=script
+  Link: </styles-0dd9b16d06f2e4f550cc.js>; rel=preload; as=script
+  Link: </framework-7656862d80676d58607a.js>; rel=preload; as=script
+  Link: </532a2f07-05d0124221769214927b.js>; rel=preload; as=script
+  Link: </app-5230b6cc001083178cf6.js>; rel=preload; as=script
+  Link: </styles-0dd9b16d06f2e4f550cc.js>; rel=preload; as=script
+  Link: </61a99217af7f1d1eebec238e78e684e1bdbe6200-67518d3045c6418c00eb.js>; rel=preload; as=script
+  Link: </d4f3f45f3b97a996ebac05174393e9dafe15c3a1-e1c811e67e06b8931249.js>; rel=preload; as=script
+  Link: </component---src-templates-post-template-js-61fd9f2f937087963467.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/posts/react-hook-busy-indicator-chatbot/page-data.json>; rel=preload; as=fetch; crossorigin
+/posts/two-brothers
+  Link: </webpack-runtime-1efad657eb71dcd1207e.js>; rel=preload; as=script
+  Link: </styles-0dd9b16d06f2e4f550cc.js>; rel=preload; as=script
+  Link: </framework-7656862d80676d58607a.js>; rel=preload; as=script
+  Link: </532a2f07-05d0124221769214927b.js>; rel=preload; as=script
+  Link: </app-5230b6cc001083178cf6.js>; rel=preload; as=script
+  Link: </styles-0dd9b16d06f2e4f550cc.js>; rel=preload; as=script
+  Link: </61a99217af7f1d1eebec238e78e684e1bdbe6200-67518d3045c6418c00eb.js>; rel=preload; as=script
+  Link: </d4f3f45f3b97a996ebac05174393e9dafe15c3a1-e1c811e67e06b8931249.js>; rel=preload; as=script
+  Link: </component---src-templates-post-template-js-61fd9f2f937087963467.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/posts/two-brothers/page-data.json>; rel=preload; as=fetch; crossorigin
+/posts/create-react-starter-boilerplate
+  Link: </webpack-runtime-1efad657eb71dcd1207e.js>; rel=preload; as=script
+  Link: </styles-0dd9b16d06f2e4f550cc.js>; rel=preload; as=script
+  Link: </framework-7656862d80676d58607a.js>; rel=preload; as=script
+  Link: </532a2f07-05d0124221769214927b.js>; rel=preload; as=script
+  Link: </app-5230b6cc001083178cf6.js>; rel=preload; as=script
+  Link: </styles-0dd9b16d06f2e4f550cc.js>; rel=preload; as=script
+  Link: </61a99217af7f1d1eebec238e78e684e1bdbe6200-67518d3045c6418c00eb.js>; rel=preload; as=script
+  Link: </d4f3f45f3b97a996ebac05174393e9dafe15c3a1-e1c811e67e06b8931249.js>; rel=preload; as=script
+  Link: </component---src-templates-post-template-js-61fd9f2f937087963467.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/posts/create-react-starter-boilerplate/page-data.json>; rel=preload; as=fetch; crossorigin
 /tag/boilerplate
   Link: </webpack-runtime-1efad657eb71dcd1207e.js>; rel=preload; as=script
   Link: </styles-0dd9b16d06f2e4f550cc.js>; rel=preload; as=script
