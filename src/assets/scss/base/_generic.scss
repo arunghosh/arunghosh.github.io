@@ -202,9 +202,12 @@ table {
 }
 
 code.language-text {
-  font-size: 0.95rem !important;
-  color: #c0392b !important;
-  background: #ecf0f1 !important;
+    color: #332!important;
+    border-radius: 0!important;
+    padding: .2em .4em!important;
+    margin: 0;
+    font-size: 85%!important;
+    border-radius: 3px!important;
 }
 
 pre {

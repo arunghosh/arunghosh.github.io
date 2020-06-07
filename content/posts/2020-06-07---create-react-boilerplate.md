@@ -38,9 +38,9 @@ The boilerplate aims to have the following
 
 ##  Lets us start
 
-The starting point will be with `create-react-app`
+The starting point will be with the `create-react-app`
 
-Here you have a choice to go with or without `TypeScript`.
+Here you have a choice to go with or without **TypeScript**.
 
 Without TypeScript
 ```bash
@@ -48,14 +48,14 @@ npx create-react-app your-application-name
 ``` 
 
 With TypeScript
-```
+```bash
 npx create-react-app your-application-name --template typescript
 ```
 
 
 ## Folder Structure
 There is not hard and fast rule for the folder structure. The document follows the below structure:
-```
+```bash
 +-- components
 |   +-- generics
 |   |   +-- Button
@@ -90,13 +90,13 @@ There is not hard and fast rule for the folder structure. The document follows t
 ## Routing
 In case you have a more than one page, you need to have a router. For routing we are using [React Router](https://github.com/ReactTraining/react-router)
 
-First install `react-router`
-```
+First install react-router
+```bash
  yarn add react-router-dom
 ```
 
-And if you are using `TypeScript` add types
-```
+And if you are using TypeScript add types
+```bash
 yarn add @types/react-router
 ```
 
@@ -181,7 +181,7 @@ export default App;
 Once done you will have `/` pointing to the `Home Page` and `/about` pointing to the `About Page`.
 
 ## Manage Document Head 
-We will use [`react-helment-async`](https://www.npmjs.com/package/react-helmet-async) to manage document head.
+We will use [react-helment-async](https://www.npmjs.com/package/react-helmet-async) to manage document head.
 Ther is npm package `react-helment` which is used manage changes to the document head like `title`, `metadata`, etc. But then why `react-helment-async` instead of `react-helmet`?
 > The `react-helmet` relies on `react-side-effect`, which is not **thread-safe**. If you are doing anything asynchronous on the server, you need Helmet to encapsulate data on a per-request basis, this package does just that.
 
@@ -479,7 +479,7 @@ If in case you want to commit without verification you can use `--no-verify`.
 >Storybook runs outside of the main app so users can develop UI components in isolation without worrying about app specific dependencies and requirements.
 
 Install (since we are using `create-react-app`)
-```
+```bash
 npx -p @storybook/cli sb init --type react_scripts
 ```
 
