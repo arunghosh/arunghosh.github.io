@@ -1,3 +1,2 @@
 ## Personal blog built using Gatsby
-
-https://theparadox.life/
+[https://arunghosh.github.io/](https://arunghosh.github.io/)
